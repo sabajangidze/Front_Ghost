@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Mrgvlovani";
+  src: url("../public/fonts/mrgvlovani_caps_2010.ttf");
+}
+
+@layer components {
+  .wrapper {
+    @apply w-10/12;
+  }
+  .mobile_wrapper {
+    @apply w-11/12;
+  }
+  .big_wrapper{
+    @apply w-[91%]
+  }
+  .wrapper_short{
+    @apply w-[85%]
+  }
+  .admin-dashboard-active{
+    @apply bg-main-purple rounded-lg text-white
+  }
+
+  .font-outline-2 {
+    -webkit-text-stroke: 2px black;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px black;
+  }
+
+  .header_space{
+    @apply h-20 w-full bg-transparent;
+  }
+}
+
